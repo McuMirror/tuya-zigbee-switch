@@ -230,7 +230,7 @@ BOARD__ZIGBEE_ZTU_2:
   threads: null
   store: https://www.aliexpress.com/item/1005007599675462.html
 DIN_RELAY_TUYA_TS011F_PM:
-  human_name: Tuya DIN circuit breaker
+  human_name: Tuya DIN circuit breaker PM
   category: din_relay
   power: mains
   neutral: required
@@ -3084,6 +3084,33 @@ PLUG___LELLKI_TS0001:
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/334
   store: null
+PLUG___LIDL_PM_TS011F:
+  human_name: LIDL PM plug HG08673
+  category: plug
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS011F
+  stock_manufacturer_name: _TZ3000_ynmowqk2
+  stock_converter_manufacturer: Lidl
+  stock_converter_model: HG08673
+  override_z2m_device: null
+  tuya_module: null
+  mcu_family: Telink
+  mcu: null
+  config_str: ynmowqk2;TS011F-LIDL-PM;SB4u;RB5;IC4i;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47008
+  build: yes
+  status: in_progress
+  info: Power monitoring not implemented
+  threads: null
+  store: null
 REMOTE_AQARA_WXKG02LM:
   human_name: Aqara WXKG02LM
   category: remote
@@ -4138,8 +4165,8 @@ SWITCH_BSEED_TOUCH_TS0001_2:
   stock_image_type: 54179
   firmware_image_type: 45575
   build: yes
-  status: mostly_supported
-  info: Needs pinout confirmation
+  status: fully_supported
+  info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/pull/188
   store: null
 SWITCH_BSEED_TOUCH_TS0002:

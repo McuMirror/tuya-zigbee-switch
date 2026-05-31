@@ -3030,6 +3030,33 @@ OUTLET_MOES_PM_TS011F:
   info: Power monitoring not implemented
   threads: https://github.com/romasku/tuya-zigbee-switch/pull/420
   store: null
+OUTLET_TUYA_PM_TS011F:
+  human_name: Tuya PM wall socket
+  category: outlet
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS011F
+  stock_manufacturer_name: _TZ3210_vddauzhn
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS011F_plug_1
+  override_z2m_device: null
+  tuya_module: ZTU
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: vddauzhn;TS011F-TPM;SB4U;RB5;IC4i;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 45681
+  build: yes
+  status: in_progress
+  info: Power monitoring not implemented
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/426
+  store: https://www.aliexpress.com/item/1005006374575890.html
 PLUG___AUBESS_PM_TS011F:
   human_name: Aubess PM plug
   category: plug
